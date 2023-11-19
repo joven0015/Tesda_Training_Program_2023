@@ -23,13 +23,13 @@ class Days{
         System.out.println();
     } 
 }
-public class year {
+public class Year {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-       int months = input.nextInt();
+        int months = input.nextInt();
         input.close();
+        
         switch (months) {
-             
             case 1:
                 System.out.print("january");
                 Days.day31();
