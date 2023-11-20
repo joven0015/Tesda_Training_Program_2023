@@ -6,8 +6,10 @@ public class numberToWeek {
             // int i = numToDay -1 ;//means int i = 0 ;
             Scanner input = new Scanner(System.in);
             String[] Day = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
+            System.out.print("Input Number : ");
             int numToDay = input.nextInt();
-            System.out.println("1 : "+Day[numToDay]);
+            int day = numToDay-1;
+            System.out.println(numToDay+" : "+Day[day]);
             input.close();
            
         }
