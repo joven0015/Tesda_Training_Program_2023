@@ -1,4 +1,6 @@
-package Challenge;
+package Challenge.challenge2;
+
+
 import java.util.Scanner;
 class Days{
     public static void day28(){
@@ -22,9 +24,10 @@ class Days{
         }
         System.out.println();
     } 
+    
 }
 public class Year {
-    public static void main(String[] args) {
+    public static void monthCount() {
         Scanner input = new Scanner(System.in);
         int months = input.nextInt();
         input.close();
